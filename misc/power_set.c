@@ -20,7 +20,7 @@ int main()
 	int n_elements;
 	char *c;
 
-	printf("Numero de elementos: ");
+	printf("Number of elements: ");
 	scanf("%d", &n_elements);
 
 	c = (char*)malloc(n_elements * sizeof(char));
@@ -29,7 +29,7 @@ int main()
 
 	for(int i = 0; i < n_elements; ++i)
 	{
-		printf("Elemento %d: ", i + 1);
+		printf("Element %d: ", i + 1);
 		scanf(" %c", &c[i]);
 	}
 
