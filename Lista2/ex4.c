@@ -1,5 +1,5 @@
 /*
-	Esse problema é conhecido com o problema de Josephus
+    Esse problema é conhecido com o problema de Josephus
     Usando recursão, o problema se torna O(n)
 */
 
