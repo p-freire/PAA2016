@@ -42,7 +42,7 @@ int main()
 	std::sort(v2.begin(), v2.end());
 	printf("Vetor antes da ordenacao:\n");
 	print(v1);
-	printf("Vetor antes da ordenacao:\n");
+	printf("Vetor depois da ordenacao:\n");
 	print(v2);
 	printf("Numero de trocas: %d\n", num_swaps(v1, v2));
 
