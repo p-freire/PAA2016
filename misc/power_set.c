@@ -24,6 +24,8 @@ int main()
 	scanf("%d", &n_elements);
 
 	c = (char*)malloc(n_elements * sizeof(char));
+	if(c == NULL)
+		return -1;
 
 	for(int i = 0; i < n_elements; ++i)
 	{
@@ -32,6 +34,7 @@ int main()
 	}
 
 	power_set(c, n_elements);
+	free(c);
 
 	return 0;
 }
