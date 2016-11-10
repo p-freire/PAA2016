@@ -1,3 +1,8 @@
+/*
+    Esse algoritmo simula a situação descrita no problema.
+    Complexidade: O(nm)
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 
