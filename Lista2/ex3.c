@@ -11,7 +11,7 @@ int main()
     scanf("%d", &m);
 
     // Aloca o vetor de tamanho n
-    p = malloc(n * sizeof(int));
+    p = (int*)malloc(n * sizeof(int));
 
     if(p == NULL)
         return -1;
