@@ -37,7 +37,8 @@ int maxSub(std::vector<int> v, int e, int d)
 {
 	if(e == d)
 		return v[e];
-
+	
+	// calcula a posicao do meio
 	int m = e + (d - e) / 2;
 
 	return max_tres(maxSub(v, e, m), maxSub(v, m + 1, d), maxMeio(v, e, m ,d));
