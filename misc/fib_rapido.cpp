@@ -23,7 +23,6 @@ std::vector<int> matPow(std::vector<int> mat, int expo, int n, int m)
 		std::vector<int> aux = matPow(mat, expo / 2, m, n);
 		return matMul(aux, aux, n, m);
 	}
-
 }
 
 
