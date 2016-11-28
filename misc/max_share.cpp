@@ -13,6 +13,7 @@ e vendendo no dia 8 valendo 9.
 Claramente existe uma solução O (n²) para o algoritmo, testando todos os pares possíveis (buyDay, sellDay)
 e tirando o melhor proveito de todos eles. No entanto, existe um algoritmo melhor, proponha uma solução usando divisão e conquista.
 
+Ideia: usar o mesmo raciocínio do max_array
 */
 
 
