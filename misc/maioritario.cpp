@@ -1,9 +1,9 @@
 /*
-Assuma que existe um array A[1..n] com n elementos. Um elemento maiorit·rio de A È qualquer elemento que ocorra em mais de n/2 posiÁıes (portanto, se n = 6 ou n = 7, o elemento maiorit·rio dever· ocorrer em pelo menos 4 posiÁıes).
+Assuma que existe um array A[1..n] com n elementos. Um elemento maiorit√°rio de A √© qualquer elemento que ocorra em mais de n/2 posi√ß√µes (portanto, se n = 6 ou n = 7, o elemento maiorit√°rio dever√° ocorrer em pelo menos 4 posi√ß√µes).
 
-Assuma que os elementos n„o podem ser ordenados, mas podem ser comparados.
+Assuma que os elementos n√£o podem ser ordenados, mas podem ser comparados.
 
-Projete um algoritmo de divis„o e conquista eficiente que encontre o elemento maiorit·rio do array A (ou determine que ele n„o existe) em tempo O(n log n).
+Projete um algoritmo de divis√£o e conquista eficiente que encontre o elemento maiorit√°rio do array A (ou determine que ele n√£o existe) em tempo O(n log n).
 
 */
 
