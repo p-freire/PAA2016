@@ -1,3 +1,11 @@
+/*
+ Definição: um elemento pico de um vetor é aquele que é maior que seus dois vizinhos.
+ Exemplo: no vetor {10, 20, 15, 2, 23, 90, 67} há dois elementos pico, o 20 e o 90.
+ Faça um programa que retorne pelo menos um dos elementos pico de um dado vetor,
+ primeiramente usando força bruta e posteriormente usando divisão e conquista.
+ Note que você só precisa retornar um elemento pico, os vetores tem pelo menos um elemento pico e não há repetições.
+*/
+
 #include <stdio.h>
 #include <limits.h>
 #include <algorithm>
