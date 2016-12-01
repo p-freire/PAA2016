@@ -1,6 +1,6 @@
 /*
 É dado um vetor de n números inteiros representando os preços das ações de uma empresa em um único dia. 
-Queremos encontrar um par (buyDay, sellDay), com buyDay ≤ sellDay, de modo que se compramos o estoque em buyDay
+Queremos encontrar um par (buyDay, sellDay), com buyDay <= sellDay, de modo que se compramos o estoque em buyDay
 e vendemos em sellDay, nós maximizaríamos nosso lucro.
 
 Exemplo do vetor:
@@ -10,7 +10,7 @@ Preços:                        3, 6, 1, 7, 2, 8, 4, 6, 9, 0, 4, 5
 Onde a data está implicita iniciando-se em 0. Para este exemplo o lucro máximo é 8, comprando a ação no dia 2 custando 1
 e vendendo no dia 8 valendo 9.
 
-Claramente existe uma solução O (n²) para o algoritmo, testando todos os pares possíveis (buyDay, sellDay)
+Claramente existe uma solução O (n^2) para o algoritmo, testando todos os pares possíveis (buyDay, sellDay)
 e tirando o melhor proveito de todos eles. No entanto, existe um algoritmo melhor, proponha uma solução usando divisão e conquista.
 
 Ideia: usar o mesmo raciocínio do max_array
