@@ -11,6 +11,7 @@
 #include <algorithm>
 #include <vector>
 
+// Complexidade O(n)
 int picoLinear(std::vector<int> v, int l, int r)
 {
     if(r - l == 0)
@@ -21,6 +22,7 @@ int picoLinear(std::vector<int> v, int l, int r)
     return std::max(picoLinear(v, l, m), picoLinear(v, m + 1, r));
 }
 
+// Complexidade O(log n)
 int picoLog(std::vector<int> v, int l, int r)
 {
     if(l <= r)
