@@ -7,7 +7,7 @@ double exp_num(double x, int n)
 		return 1.0;
 	else if(n == 1)
 		return x;
-	else if(n & 1)
+	else if(n & 1) // impar
 		return x * exp_num(x * x, (n - 1) / 2);
 	else
 		return exp_num(x * x, n / 2);
