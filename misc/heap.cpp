@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <vector>
-#include <algorithm>
 #include <time.h>
 
 void print(std::vector<int> v)
