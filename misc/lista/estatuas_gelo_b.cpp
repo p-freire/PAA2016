@@ -25,8 +25,6 @@ int main()
 			scanf("%d", &blocos[i]);
 
 		// faz um sort pra facilitar na hora de achar o maior bloco
-		// se bem que eu poderia correr o vetor uma vez só pra achar isso
-		// e deixar essa parte em O(n). Mas enfim...
 		std::sort(blocos.begin(), blocos.end() - (MAX_BLOCOS - n));
 		prune = blocos[n - 1] * blocos[n - 1];
 		
