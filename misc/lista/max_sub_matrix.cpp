@@ -42,7 +42,7 @@ int main()
 	for(int i = 1; i < n; ++i)
 		for(int j = 1; j < m; ++j)
 			if(matriz[i][j] == 0)
-				tabela[i][j] == 0;
+				tabela[i][j] = 0;
 			else
 			{
 				// verifica os elementos acima, na diagonal e ao lado
