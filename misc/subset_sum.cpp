@@ -32,7 +32,7 @@ bool subset_sum(int *set, int n, int soma)
 	
 	bool resultado = matriz[get_index(n, soma, cols)];
 	delete [] matriz;
-	return resultado;
+	return resultado; 
 }
 
 
